@@ -14,7 +14,7 @@ const Book = ({
                 <div className=" font-bold md:text-xl text-[#345E40]">{title}</div>
                 <div className="text-gray-600">1-6 person | 27m</div>
             </div>
-            <div className="text-gray-600 text-sm max-w-md max-h-28 overflow-auto scrollbar-hide">
+            <div className="text-gray-600 text-sm w-full max-h-28 overflow-auto scrollbar-hide">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero excepturi molestias ab incidunt quidem repudiandae provident ad labore facere repellendus totam, earum cupiditate, quisquam aperiam quis explicabo corrupti, fugiat unde.
                 Consectetur dolor veniam delectus placeat, mollitia voluptatem fuga unde libero culpa, voluptates, asperiores totam iure enim maiores error? Ex autem ab optio ipsum, temporibus eligendi quas. Ratione, consequuntur accusantium. Accusantium.
             </div>
