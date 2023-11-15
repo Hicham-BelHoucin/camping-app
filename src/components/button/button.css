@@ -1,0 +1,15 @@
+.button-text {
+  @apply text-sm md:text-base font-medium text-white border border-white py-2 px-4 rounded-md;
+}
+
+.button-text:hover {
+  @apply bg-white text-black transition ease-in-out duration-700;
+}
+
+.button-primary {
+  @apply bg-[#345E40] text-white text-sm md:text-base font-medium  border border-[#345E40] py-2 px-4 rounded-md;
+}
+
+.button-primary:hover {
+  @apply bg-[#5D7E66] transition ease-in-out duration-700;
+}
