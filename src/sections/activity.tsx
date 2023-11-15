@@ -15,7 +15,7 @@ const Activity = ({ image, title }: { image: string; title: string }) => {
 export default function Activities() {
     return (
         <section id="activity">
-            <div className="flex items-start justify-center gap-4 px-4 flex-wrap md:flex-nowrap">
+            <div className="m-auto container flex items-start justify-center gap-4 px-4 flex-wrap md:flex-nowrap">
                 <div className="w-full flex flex-col gap-4 items-center justify-center pt-32">
                     <div className="w-full max-w-md text-left font-bold text-[#97A483] text-2xl ">
                         ACTIVITY
