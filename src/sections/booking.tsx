@@ -9,7 +9,7 @@ const Book = ({
 }) => {
     return (
         <div className="flex flex-col items-start justify-center gap-2">
-            <img src={image} alt="" />
+            <img loading="lazy" src={image} alt="" />
             <div className="flex w-full items-center justify-between md:pr-1 text-sm">
                 <div className=" font-bold md:text-xl text-[#345E40]">{title}</div>
                 <div className="text-gray-600">1-6 person | 27m</div>

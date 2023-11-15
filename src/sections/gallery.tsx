@@ -13,8 +13,8 @@ export default function Gallery() {
                     </div>
                 </div>
                 <div className="relative">
-                    <img src="/karsten-winegeart-NVhD7aGh9gQ-unsplash 1.png" alt="" className="absolute -left-40 -bottom-8 hidden xl:block" width={250} />
-                    <img src="/tents-with-wooden-chairs-pathway-front-them-glamping-nature-greenery-around 1.png" alt="" />
+                    <img loading="lazy" src="/karsten-winegeart-NVhD7aGh9gQ-unsplash 1.png" alt="" className="absolute -left-40 -bottom-8 hidden xl:block" width={250} />
+                    <img loading="lazy" src="/tents-with-wooden-chairs-pathway-front-them-glamping-nature-greenery-around 1.png" alt="" />
                 </div>
             </div>
         </section>

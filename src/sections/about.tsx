@@ -1,7 +1,7 @@
 const Campground = ({ image, title }: { image: string; title: string }) => {
     return (
         <div className="flex items-center justify-center flex-col text-center gap-4">
-            <img className="rounded-md" src={image} alt="image" width={450} />
+            <img loading="lazy" className="rounded-md" src={image} alt="image" width={450} />
             <div className=" font-bold text-xl ">{title}</div>
             <p className="text-gray-600">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum enim
@@ -43,23 +43,23 @@ export default function About() {
 
                 <div className="flex items-center justify-around text-[#2D2D2D] w-full flex-wrap md:flex-nowrap">
                     <div className="flex items-center justify-center flex-col gap-2">
-                        <img src="/van.png" alt="" />
+                        <img loading="lazy" src="/van.png" alt="" />
                         <p className=" font-semibold">30 CAMPER SITES</p>
                     </div>
                     <div className="flex items-center justify-center flex-col gap-2">
-                        <img src="/van-1.png" alt="" />
+                        <img loading="lazy" src="/van-1.png" alt="" />
                         <p className=" font-semibold">25 CARAVAN SITES</p>
                     </div>
                     <div className="flex items-center justify-center flex-col gap-2">
-                        <img src="/tant-1.png" alt="" />
+                        <img loading="lazy" src="/tant-1.png" alt="" />
                         <p className=" font-semibold">10 GLAMP SITES</p>
                     </div>
                     <div className="flex items-center justify-center flex-col gap-2">
-                        <img src="/tant.png" alt="" />
+                        <img loading="lazy" src="/tant.png" alt="" />
                         <p className=" font-semibold">15 TENT SITES</p>
                     </div>
                     <div className="flex items-center justify-center flex-col gap-2">
-                        <img src="/home.png" alt="" />
+                        <img loading="lazy" src="/home.png" alt="" />
                         <p className=" font-semibold">10 CABIN HOUSES</p>
                     </div>
                 </div>

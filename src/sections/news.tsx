@@ -9,7 +9,7 @@ const Article = ({
 }) => {
     return (
         <div className="flex flex-col items-start justify-center gap-2">
-            <img src={image} alt="" width={500} />
+            <img loading="lazy" src={image} alt="" width={500} />
             <div className=" font-bold text-xl text-black">{title}</div>
             <Button variant="text" className=" !text-gray-500 !hover:bg-transparent !border-none">
                 Read

@@ -15,7 +15,7 @@ export default function Navbar() {
 
     return (
         <div className="flex container items-center justify-between p-4">
-            <img src="/logo.png" alt="logo" width={100} />
+            <img loading="lazy" src="/logo.png" alt="logo" width={100} />
             <div className="flex items-center justify-center gap-16">
                 <div className="hidden sm:block">
                     <div className="flex space-x-4">
